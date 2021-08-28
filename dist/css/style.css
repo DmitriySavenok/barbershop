@@ -381,3 +381,272 @@ template {
 [hidden] {
   display: none;
 }
+
+/* Global */
+
+.no-webp body {
+  background-image: url("../img/bg.jpg"); }
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #000000;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main navigation */
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.main-navigation-wrapper {
+  background-color: #000000;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation-current a:not([href]) {
+  background-color: #000000;
+}
+
+/* User navigation */
+
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #242424;
+}
+
+/* Features */
+
+.features-list {
+  list-style: none;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+/* Index columns */
+
+.no-webp .index-columns {
+  background-image: url("../img/pattern-light.jpg"); }
+
+.index-columns {
+  color: #000000;
+  background-color: #f8f5f2;
+  background-position: center, 0 0;
+  background-repeat: no-repeat, repeat;
+}
+
+.index-columns h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+/* News */
+
+.news-list {
+  list-style: none;
+}
+
+/* Gallery */
+
+.gallery-content {
+  background-color: #aba9a7;
+  border: 7px solid #ffffff;
+}
+
+/* Button */
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #000000;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
+}
+
+.button.disabled,
+.button:disabled {
+  cursor: default;
+  opacity: 0.5;
+  background-color: #000000;
+}
+
+/* Contacts */
+
+.contacts-phone {
+  color: inherit;
+}
+
+/* Appointment */
+
+.appointment-item input {
+  font: inherit;
+  background-color: transparent;
+  border: 2px solid #000000;
+}
+
+.appointment-item input:focus {
+  border-color: #663d15;
+}
+
+/* Main footer */
+
+.no-webp .main-footer {
+  background-image: url("../img/pattern-dark.jpg"); }
+
+.main-footer {
+  color: #ffffff;
+  background-color: #242424;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-contacts a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  text-decoration: none;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.footer-social h2 {
+  font-size: 14px;
+}
+
+/* Social button */
+
+.social-button {
+  color: inherit;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: #ffffff;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* Modal */
+
+.no-webp .modal {
+  background-image: url("../img/pattern-light.jpg"); }
+
+.modal {
+  color: #000000;
+  background-color: #f8f5f2;
+  background-position: 0 0;
+  background-repeat: repeat;
+  -webkit-box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+}
+
+.modal-login h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+/* Login form */
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #f8f5f2;
+  border: 2px solid #000000;
+}
+
+.login-form input:focus {
+  border-color: #663d15;
+}
+
+.login-icon-user {
+  background-image: url("../img/user.svg");
+  background-position: 270px center;
+  background-repeat: no-repeat;
+}
+
+.login-icon-password {
+  background-image: url("../img/lock.svg");
+  background-position: 270px center;
+  background-repeat: no-repeat;
+}
+
+/* Restore */
+
+.restore {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.restore:hover,
+.restore:focus {
+  text-decoration: none;
+}
+
+.webp body { background-image: url(../img/bg.webp); }
+
+.webp .index-columns { background-image: url(../img/pattern-light.webp); }
+
+.webp .main-footer { background-image: url(../img/pattern-dark.webp); }
+
+.webp .modal { background-image: url(../img/pattern-light.webp); }
